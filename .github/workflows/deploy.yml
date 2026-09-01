@@ -28,7 +28,7 @@ jobs:
       - name: Check dist folder
         run: ls -la dist/
       
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: 'dist'
 
